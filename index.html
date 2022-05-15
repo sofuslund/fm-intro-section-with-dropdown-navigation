@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="dark-overlay"></div>
+    <nav class="nav">
+        <a class="nav__logo" href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+
+        <img class="nav__menu-icon" src="images/icon-menu.svg" alt="menu icon" role="button" />
+
+        <ul class="nav__menu">
+            <li class="submenu nav__submenu nav__menu-item nav__menu-link">
+                <div class="nav__hover-container">
+                    <a class="submenu__link" href="#">Features</a>
+                    <img class="submenu__arrow" src="images/icon-arrow-down.svg" alt="" />
+                </div>
+                <div class="submenu__wrapper submenu__wrapper--right">
+                    <div class="submenu__box">
+                        <table class="submenu__list">
+                            <tr class="submenu__table-space"><td></td></tr>
+                            <tr>
+                                <td class="submenu__item"><img src="images/icon-todo.svg" alt=""></td>
+                                <td><a href="#">Todo List</a></td>
+                            </tr>
+                            <tr class="submenu__table-space"><td></td></tr>
+                            <tr>
+                                <td class="submenu__item"><img src="images/icon-calendar.svg" alt=""></td>
+                                <td><a href="#">Calendar</a></td>
+                            </tr>
+                            <tr class="submenu__table-space"><td></td></tr>
+                            <tr>
+                                <td class="submenu__item"><img src="images/icon-reminders.svg" alt=""></td>
+                                <td><a href="#">Reminders</a></td>
+                            </tr>
+                            <tr class="submenu__table-space"><td></td></tr>
+                            <tr>
+                                <td class="submenu__item"><img src="images/icon-planning.svg" alt=""></td>
+                                <td><a href="#">Planning</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </li>
+            <li class="submenu submenu-2 nav__submenu nav__menu-item nav__menu-link">
+                <div class="nav__hover-container">
+                    <a class="submenu__link" href="#">Company</a>
+                    <img class="submenu__arrow" src="images/icon-arrow-down.svg" alt="" />
+                </div>
+                <div class="submenu__wrapper submenu__wrapper--left">
+                    <div class="submenu__box">
+                        <ul class="submenu__list">
+                            <li class="submenu__item"><a href="#">History</a></li>
+                            <li class="submenu__item"><a href="#">Our Team</a></li>
+                            <li class="submenu__item"><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="nav__menu-item nav__menu-link"><a href="#">Careers</a></li>
+            <li class="nav__menu-item nav__menu-link"><a href="#">About</a></li>
+            <div class="nav__btn-container">
+                <li class="nav__menu-item nav__btn-item">
+                    <button class="nav__btn">
+                        <span>Login</span>
+                    </button>
+                </li>
+                <li class="nav__menu-item nav__btn-item">
+                    <button class="nav__btn btn--light">
+                        <span>Register</span>
+                    </button>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <img src="images/image-hero-mobile.png" class="hero__img"></img>
+
+        <div class="hero__text">
+            <h1 class="hero__heading">
+                Make remote work
+            </h1>
+
+            <p class="hero__subheading">
+                Get your team in sync, no matter your location. 
+                Streamline processes, create team rituals, and 
+                watch productivity soar.
+            </p>
+
+            <button class="hero__btn">Learn more</button>
+
+            <div class="clients">
+                <div><img class="clients__img" src="images/client-databiz.svg" alt="" /></div>
+                <div><img class="clients__img" src="images/client-audiophile.svg" alt="" /></div>
+                <div><img class="clients__img" src="images/client-meet.svg" alt="" /></div>
+                <div><img class="clients__img" src="images/client-maker.svg" alt="" /></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+            href="#">Sofus</a>.
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
