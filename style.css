@@ -186,6 +186,7 @@ ul {
         margin-top: .8em;
     }
 }
+
 @media only screen and (min-width: 769px) {
     html {
         font-size: clamp(.6rem, 1.11vw, 1.1rem);
@@ -287,7 +288,7 @@ ul {
         flex-direction: row;
         justify-content: space-between;
         margin: 4em 7em 3em 8em;
-        height: 41em;
+        height: 70vh;
     }
     .hero__text {
         margin-top: 5em;
@@ -339,6 +340,11 @@ ul {
     }
     .clients__img {
         transform: scale(1.0);
-        max-width: 77%;
+        max-width: 90%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+    .clients__img {
+        max-width: 75%;
     }
 }
