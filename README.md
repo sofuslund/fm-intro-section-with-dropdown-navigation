@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/responsive-company-site-with-flexbox-media-queries-and-viewport-units-BkdgCV085)
+- Live Site URL: [site](https://fm01-intro-section-with-dropdown-navigation.netlify.app/)
 
 ## My process
 
